@@ -5,14 +5,23 @@
 </head>
 
 <body>
-	<hi>Hangman!</hi>
+	<h1>Hangman!</h1>
 
 	<script>
 		var words = [
 			"javascript", 
 			"monkey", 
 			"amazing", 
-			"pankake"
+			"pankake",
+			"whale",
+			"ice",
+			"snake",
+			"html",
+			"wonderful",
+			"rainbow",
+			"thousands",
+			"python",
+			"snake"
 		];
 
 		var word = words[Math.floor(Math.random() * words.length)];
@@ -45,5 +54,10 @@
 		alert(answerArry.join(" "));
 		alert("Good job! The answer was "  +  word);
 	</script>
+	<hr />
+	<button onClick="window.location.reload();">Next Round</button>
+	<form>
+		<input type="button" onclick="window.location.href='projects2.html'" value="Back" />
+	</form>
 </body>
 </html>

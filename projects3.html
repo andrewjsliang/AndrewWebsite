@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Andrew's Blog</title>
+    <title>Andrew's Projects</title>
     <style type="text/css">
         body {
             background-color: white;
         }
         img {
             float: left;
-            margin: 10;      
+            margin: 0;
         }
         h4 {
             background-color: white;
-            margin: 0;
+            margin: 10;
             text-align: center;
             vertical-align: text-bottom;
         }
@@ -50,6 +50,9 @@
             color: springgreen;
             text-decoration: none;
         }
+        .alllinks {
+            color: blue;
+        }
         .mainContent {
             width: 500px;
             margin: auto;
@@ -58,14 +61,15 @@
             text-align: left;
             width: auto;
             overflow: hidden;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <h1>Andrew's-Website
         <a class="toplink" href="index.html">Home</a> 
-        <a class="toplink" href="projects.html">Projects</a>
-        <a class="homelink" href="blog.html">Blog</a>
+        <a class="homelink" href="projects.html">Projects</a>
+        <a class="toplink" href="blog.html">Blog</a>
         <a class="toplink" href="contact.html">Contact</a>
     </h1>
     <hr />
@@ -77,9 +81,34 @@
         In this website, you can check<br />
         out all my projects and get to<br />
         know a little about me.<br />
-        Enjoy!
+        Enjoy!<br />
         </h3>
         <hr />
-    </div>
+        <h2 class="mainContentItem">Projects</h2>
+        <h4 class="mainContentItem">Here are some of my projects.</h4>
+        <h4 class="mainContentItem">Page 3 of 3</h4>
+        <blockquote>
+        <h4 class="mainContentItem">
+            | <a class="alllinks" href="projects.html">1</a>
+             | <a class="alllinks" href="projects2.html">2</a>
+             | 3
+             | <a class="alllinks" href="projects2.html">Back</a>
+             | Next |
+        </h4>
+        </blockquote>
+        <hr />
+        <div class="mainContent">
+            <h4 class="mainContentItem">
+                <img src="images/Mr.stickman.png" width="200">
+                <a class="alllinks" href="https://github.com/andrewjsliang/Stickman">Mr.Stick Man Races for the Exit</a>
+                is a game that uses python. Basically, you
+                control the stick man by using the arrow
+                keys. You jump by pressing the space bar.
+                You can hop on the platforms. If you jump
+                from a high place, you die. You can press
+                the restart button on the button to play
+                again. If you reach the door, you win.
+            </h4>
+        </div>
 </body>
 </html>
